@@ -119,6 +119,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_TensorReaper3_Hotbar_Feint",
+							name = "Use Feint",
 							uuid = "140f909c-c876-261d-85b8-c84045d375dc",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -256,6 +257,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_TensorReaper3_Hotbar_Feint",
+							name = "Use Feint",
 							uuid = "140f909c-c876-261d-85b8-c84045d375dc",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -268,8 +270,41 @@ local tbl =
 				mechanicTime = 189.2,
 				name = "{All} Use Feint",
 				timelineIndex = 33,
-				timerOffset = -6,
+				timerOffset = -7,
 				uuid = "fedd5747-090c-ade7-9e03-bad1b80ba642",
+				version = 2,
+			},
+		},
+	},
+	[46] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_TensorReaper3_Hotbar_Feint",
+							name = "Use Feint",
+							uuid = "140f909c-c876-261d-85b8-c84045d375dc",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 275.3,
+				name = "{All} Use Feint",
+				timelineIndex = 46,
+				timerOffset = -4,
+				uuid = "d4e6c911-29fb-06f1-af4e-4f301acd30ba",
 				version = 2,
 			},
 		},

@@ -65,6 +65,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_TensorReaper3_Hotbar_Feint",
+							name = "Use Feint",
 							uuid = "140f909c-c876-261d-85b8-c84045d375dc",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -202,6 +203,7 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_TensorReaper3_Hotbar_Feint",
+							name = "Use Feint",
 							uuid = "140f909c-c876-261d-85b8-c84045d375dc",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -270,6 +272,90 @@ local tbl =
 				timelineIndex = 33,
 				timerOffset = -4,
 				uuid = "5aa7329d-bce8-7733-8d26-0ee2d39ba0c6",
+				version = 2,
+			},
+		},
+	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"295be654-51d0-1673-ad7b-1957f05f4082",
+									true,
+								},
+							},
+							gVar = "ACR_TensorReaper3_Hotbar_ArcaneCrest",
+							name = "{Reaper} Use Arcane Crest",
+							uuid = "7295d7bb-9f9f-6739-9bab-5e150eee2973",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							dequeueIfLuaFalse = true,
+							jobValue = "REAPER",
+							name = "Is {Reaper}",
+							uuid = "295be654-51d0-1673-ad7b-1957f05f4082",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 249.2,
+				name = "{Reaper} Use Crest",
+				timelineIndex = 42,
+				timerOffset = -4,
+				uuid = "e8d70f97-598a-c2bf-898f-20c1f18d7b4a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_TensorReaper3_Hotbar_Feint",
+							name = "Use Feint",
+							uuid = "140f909c-c876-261d-85b8-c84045d375dc",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 249.2,
+				name = "{All} Use Feint",
+				timelineIndex = 42,
+				timerOffset = -1.7000000476837,
+				uuid = "4b67534f-670d-6021-8e45-128c5e2eef2a",
 				version = 2,
 			},
 		},
